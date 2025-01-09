@@ -10,5 +10,5 @@ C# 코딩테스트 일지
 
 <br>
   
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ehdbs41325)](https://solved.ac/5dxwin/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=5dxwin)](https://solved.ac/5dxwin/)
 <img src="http://mazandi.herokuapp.com/api?handle=5dxwin&theme=warm"/>
