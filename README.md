@@ -2,7 +2,7 @@
 
 Algorithm
 ---
-<img src="https://img.shields.io/github/languages/top/5dxwin/Algorithm"/><img src="https://img.shields.io/github/commit-activity/m/5dxwin/Algorithm"/>   
+<img src="https://img.shields.io/github/languages/top/Kimbeomju/Algorithm"/><img src="https://img.shields.io/github/commit-activity/m/Kimbeomju/Algorithm"/>   
 <br>
 C# 코딩테스트 일지
 
