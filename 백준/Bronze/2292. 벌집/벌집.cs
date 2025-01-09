@@ -10,19 +10,20 @@ class Program
         if (N < 1 || N > 1000000000) return;
 
         long hexagon = 1;
-        long k = 1;
-
-        while(N > hexagon)
+ 
+        for (long i = 1; i <= N; i++)
         {
-            hexagon += 6 * k;
-            k++;
+            if(N <= hexagon)
+            {
+                Console.WriteLine(i);
+                break;
+            }
+            hexagon += 6 * i;
         }
-        Console.WriteLine(k);
-
 
 
     }
 
-
+   
 
 }
