@@ -1,35 +1,21 @@
 using System;
-using System.Linq;
+using System.IO;
 
 class Program
 {
     static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
-        string a = Console.ReadLine();
-        double result = 0;
-        char[] arr = a.ToCharArray();
-        for (int i = 0; i < arr.Length; i++)
+        long r = 1, M = 1234567891, hash = 0;
+        Console.ReadLine();
+        string str = Console.ReadLine();
+
+        foreach (char c in str)
         {
-            result += GetIndexAlphabet(arr[i]) * Math.Pow(31, i);
+            hash = (hash + (c - 96) * r) % M;
+            r = (r * 31) % M;
         }
-        Console.WriteLine(result);
+        Console.WriteLine(hash);
     }
 
-    static int GetIndexAlphabet(char a)
-    {
-        char ch;
-        int num = 1;
-        for(ch = 'a'; ch <= 'z'; ch++)
-        {
-            if(a == ch)
-            {
-                return num;
-            }
-            num++;
-        }
-
-        return -1;
-    }
 
 }
